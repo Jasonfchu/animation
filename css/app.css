@@ -51,7 +51,7 @@ figure {
   width: 100px;
   height: 100px;
   position: relative;
-  animation: my_animation 1s ease infinite alternate;
+  animation: my_animation infinite alternate;
 }
 
 #my_animation {
