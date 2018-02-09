@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body h1{font-family: 'Raleway', sans-serif;}
+
+.article-header {
+	background-color: #82e2ff;
+	color: white;
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	justify-content: center;
+	min-height: 350px;
+	padding: 2em 4% 2em;
+  text-align: center;
+}
+
+
+#nav{
+
+  list-style-type:none;
+  padding:0px;
+  margin:0px;
+}
+#nav li{
+
+  display:inline-block;
+  padding:5px;
+  margin:0px;
+  font-size:18px;
+  color:white;
+}
+
+#nav li:hover{
+
+  background:#c6f2ff;
+  transition:background 0.25s;
+}
+
+
+@keyframes my_animation {
+  from {
+    left: 20px;
+  }
+  to {
+    left: 400px;
+  }
+}
+
+figure {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: my_animation 1s ease infinite alternate;
+}
+
+#my_animation {
+  background-color: #ff4f4f;
+  animation-duration: 1s;
+}
+#my_animation_2 {
+  background-color: #ffb24f;
+  animation-duration: 1.5s;
+}
+#my_animation_3 {
+  background-color: #f9ff4f;
+  animation-duration: 2s;
+}
+#my_animation_4 {
+  background-color: #86ff4f;
+  animation-duration: 2.5s;
+}
+#my_animation_5 {
+  background-color: #4286f4;
+  animation-duration: 3s;
+}
