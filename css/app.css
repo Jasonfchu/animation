@@ -47,6 +47,26 @@ p {
   transition:background 0.25s;
 }
 
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}
+
+.pacman {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/sprite-sheet.png");
+
+    animation: play .38s steps(10) infinite;
+}
+
+.pacman2 {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/sprite-sheet.jpg");
+
+    animation: play .38s steps(10) infinite;
+}
 
 @keyframes my_animation {
   from {
@@ -57,31 +77,48 @@ p {
   }
 }
 
-figure {
+#my_animation {
   align-content: center;
   width: 100px;
   height: 100px;
   position: relative;
   animation: my_animation infinite alternate;
-}
-
-#my_animation {
   background-color: #ff4f4f;
   animation-duration: 0.5s;
 }
 #my_animation_2 {
+  align-content: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: my_animation infinite alternate;
   background-color: #ffb24f;
   animation-duration: 0.75s;
 }
 #my_animation_3 {
+  align-content: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: my_animation infinite alternate;
   background-color: #f9ff4f;
   animation-duration: 1s;
 }
 #my_animation_4 {
+  align-content: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: my_animation infinite alternate;
   background-color: #86ff4f;
   animation-duration: 1.25s;
 }
 #my_animation_5 {
+  align-content: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: my_animation infinite alternate;
   background-color: #4286f4;
   animation-duration: 1.5s;
 }
