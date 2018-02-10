@@ -167,6 +167,7 @@ p {
 .card2:hover {
   top: -20px;
   box-shadow: -10px 10px 35px #888;
+  transform: rotate3d(1, 1, 1, 90deg);
 }
 
 .card3 {
@@ -186,6 +187,7 @@ p {
 .card3:hover {
   top: -30px;
   box-shadow: -10px 10px 35px #888;
+  transform: rotate3d(1, 1, 1, 45deg);
 }
 
 .card4 {
@@ -205,6 +207,7 @@ p {
 .card4:hover {
   top: -40px;
   box-shadow: -10px 10px 35px #888;
+  transform:rotate(180deg);
 }
 
 .card5 {
@@ -224,4 +227,5 @@ p {
 .card5:hover {
   top: -50px;
   box-shadow: -10px 10px 35px #888;
+  transform:rotate(360deg);
 }
