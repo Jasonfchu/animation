@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 
-body h1{font-family: 'Raleway', sans-serif;}
+body h1 {font-family: 'Raleway', sans-serif;}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
 
 .article-header {
 	background-color: #82e2ff;
@@ -15,6 +22,9 @@ body h1{font-family: 'Raleway', sans-serif;}
   text-align: center;
 }
 
+#center{
+  text-align:center;
+}
 
 #nav{
 
@@ -40,14 +50,15 @@ body h1{font-family: 'Raleway', sans-serif;}
 
 @keyframes my_animation {
   from {
-    left: 20px;
+    left: 0px;
   }
   to {
-    left: 400px;
+    left: 300px;
   }
 }
 
 figure {
+  align-content: center;
   width: 100px;
   height: 100px;
   position: relative;
@@ -56,21 +67,21 @@ figure {
 
 #my_animation {
   background-color: #ff4f4f;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 #my_animation_2 {
   background-color: #ffb24f;
-  animation-duration: 1.5s;
+  animation-duration: 0.75s;
 }
 #my_animation_3 {
   background-color: #f9ff4f;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 #my_animation_4 {
   background-color: #86ff4f;
-  animation-duration: 2.5s;
+  animation-duration: 1.25s;
 }
 #my_animation_5 {
   background-color: #4286f4;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
 }
